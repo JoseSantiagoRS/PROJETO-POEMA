@@ -50,7 +50,6 @@ section.normal{
 }
 
 section.imagem{
-    background-color: #333333;
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
     background-size: cover;
@@ -58,10 +57,10 @@ section.imagem{
 }
 
 section.imagem > p {
-    margin: 0;
+    display: inline-block;
+    padding: 10px;
     width: 400px 400px;
     background-color: rgba(0, 0, 0, 0.548);
-    color: white;
 }
 
 section#img01{
